@@ -50,7 +50,7 @@ allowed_user_ids = read_users()
 def log_command(user_id, target, port, time):
     admin_id = ["7168264799"]
     user_info = bot.get_chat(7168264799)
-    if user_info.username:
+    if user_info.Smritika_bhandari:
         username = "@" + user_info.username
     else:
         username = f"UserID: {user_id}"
